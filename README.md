@@ -5,7 +5,7 @@ been written in restful manner. Route protection has been done using Json web to
 file in “src” folder. Frontend has been made using vue3 with CSS library Bootstrap for components and responsiveness and Font 
 Awesome for icons. For frontend some reusable components are in components folder and views are views folder.
 
-**Command to run backend server :** *python main.py (flask app)* \n
+**Command to run backend server :** *python main.py (flask app)*
                                     *redis-server (redis server)*
                                     *celery -A src.celery_workers.celery worker --loglevel=info (Celery worker)*
                                     *celery -A src.celery_workers.celery beat --loglevel=info (Celery beat)*
